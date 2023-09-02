@@ -18,6 +18,13 @@ h1 {
     font-size: 3em;
 
 }
+h3 {
+    margin: 1% auto;
+    font-size: 2em;
+
+}
+
+
 
 .container {
     margin: 0 auto;
@@ -71,6 +78,10 @@ h1 {
 .nav li {
     margin: 3%;
     padding: 0;
+}
+
+.nav li:hover{
+    color: #ffffff;
 }
 
 .content {
@@ -140,6 +151,10 @@ h1 {
     height: 8em;
 }
 
+.grid img:hover{
+    transform: scale(1.1);
+}
+
 .title-grid {
     margin: 0 auto;
     padding: .1em;
@@ -163,6 +178,7 @@ h1 {
     filter: drop-shadow(0px 0px 10px rgba(73, 73, 73, 0.788));
 }
 
+
 .img-list {
     width: 50%;
     height: 100%;
@@ -175,6 +191,12 @@ h1 {
     width: 50%;
     float: right;
 
+}
+.div-list:hover {
+    height: 8.75em;
+    width: 50%;
+    float: right;
+   
 }
 
 .banner-content {
@@ -225,6 +247,80 @@ h1 {
     color: #F56C2C;
 }
 
+.icon{
+    width: 30px;
+    margin-right: 5px;
+}
+.container_footer{
+    background-color: #F56C2C;
+    height: auto;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-footer{
+margin: 0 2%;
+max-width: 100% ;
+height: 10em;
+}
+.colfooter {
+
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin: 5.33% 5.33%;
+    
+}
+.colfooter p{
+    margin: 1%;
+}
+.colfooter ul {
+    width: 100%;
+    float: left;
+    list-style:none;
+}
+
+.colfooter ul li {
+    padding: 0.2em 0em;
+}
+
+.colfooter ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+    transition: 0.2s;
+}
+
+.colfooter ul li a i {
+    font-size: 0.5em;
+}
+
+.colfooter ul li a:hover {
+    color: #000000;
+}
+
+.colfooter .titleFooter {
+
+
+    font-size: 1.3em;
+    color: #ffffff;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+
+}
+
+.colfooter .redesocial {
+
+    color: #ffffff;
+    float: left;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: 0.2s;
+
+}
 
 @media all and (max-width: 685px) {
     h1 {
@@ -232,7 +328,12 @@ h1 {
         font-size: 2em;
 
     }
-
+    .colfooter {
+        width: 90%;
+        height: auto;
+        float: left;
+        margin: 5.33% 5.33%;
+    }
     .content-list {
         z-index: 1;
         margin: 15% auto;
@@ -272,8 +373,10 @@ h1 {
     }
 
     .div-list {
+        position: relative;
+        bottom: 6em;
         height: auto;
-        width: 50%;
+        width: 60%;
         float: right;
 
     }
@@ -360,7 +463,14 @@ h1 {
         font-size: 2em;
 
     }
+    .colfooter {
 
+        width: 90%;
+        height: auto;
+        float: left;
+        margin: 5.33% 5.33%;
+        
+    }
     .nav ul {
         width: 26.18em;
         font-weight: bolder;
@@ -388,8 +498,10 @@ h1 {
     }
 
     .div-list {
+        position: relative;
+        bottom: 6em;
         height: auto;
-        width: 50%;
+        width: 60%;
         float: right;
 
     }
